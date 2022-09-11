@@ -1,13 +1,23 @@
 {
-	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-division-reads/SAP_API_Caller/caller.go#L109",
-	"function": "sap-api-integrations-division-reads/SAP_API_Caller.(*SAPAPICaller).Text",
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-division-reads/SAP_API_Caller/caller.go#L67",
+	"function": "sap-api-integrations-division-reads/SAP_API_Caller.(*SAPAPICaller).Division",
 	"level": "INFO",
 	"message": [
 		{
 			"Division": "01",
+			"Language": "DE",
+			"DivisionName": "Produktsparte 01"
+		},
+		{
+			"Division": "01",
 			"Language": "EN",
 			"DivisionName": "Product Division 01"
+		},
+		{
+			"Division": "01",
+			"Language": "JA",
+			"DivisionName": "商品製品部門 01"
 		}
 	],
-	"time": "2022-09-12T00:10:57+09:00"
+	"time": "2022-09-12T00:03:36+09:00"
 }

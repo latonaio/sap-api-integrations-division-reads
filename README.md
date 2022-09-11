@@ -99,8 +99,20 @@ func (c *SAPAPICaller) AsyncGetDivision(division, language, divisionName string,
 ## Output  
 本マイクロサービスでは、[golang-logging-library-for-sap](https://github.com/latonaio/golang-logging-library-for-sap) により、以下のようなデータがJSON形式で出力されます。  
 以下の sample.json の例は、SAP 製品部門 の 製品部門データ が取得された結果の JSON の例です。  
-以下の項目のうち、"XXXX ～ "to_Text" は、/SAP_API_Output_Formatter/type.go 内 の Type Division{} による出力結果です。"cursor" ～ "time"は、golang-logging-library による 定型フォーマットの出力結果です。  
+以下の項目のうち、"Division ～ "to_Text" は、/SAP_API_Output_Formatter/type.go 内 の Type Division{} による出力結果です。"cursor" ～ "time"は、golang-logging-library-for-sap による 定型フォーマットの出力結果です。  
 
 ```
-XXXXXXXXXXX
+{
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-division-reads/SAP_API_Caller/caller.go#L60",
+	"function": "sap-api-integrations-division-reads/SAP_API_Caller.(*SAPAPICaller).Division",
+	"level": "INFO",
+	"message": [
+		{
+			"Division": "01",
+			"to_Text": "http://100.21.57.120:8080/sap/opu/odata/sap/API_DIVISION_SRV/A_Division('01')/to_Text"
+		}
+	],
+	"time": "2022-09-12T00:03:35+09:00"
+}
+
 ```
