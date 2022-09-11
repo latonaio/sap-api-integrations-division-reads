@@ -35,7 +35,7 @@ sap-api-integrations-division-reads において、API への値入力条件の�
 
 * inputSDC.Division.Division（製品部門）
 * inputSDC.Division.Text.Language（言語）
-* inputSDC.Division.Text.DivisionName（製品部門名）
+* inputSDC.Division.Text.DivisionName（製品部門名称）
 
 ## SAP API Bussiness Hub の API の選択的コール
 
